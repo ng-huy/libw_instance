@@ -3,7 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  windows_single_instance
+  libw_instance
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

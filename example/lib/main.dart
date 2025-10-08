@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:windows_single_instance/windows_single_instance.dart';
+import 'package:libw_instance/windows_single_instance.dart';
 
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,4 +1,4 @@
-#include "include/windows_single_instance/windows_single_instance_plugin.h"
+#include "include/libw_instance/windows_single_instance_plugin.h"
 
 // This must be included before many other Windows headers.
 #include <windows.h>
