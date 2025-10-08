@@ -122,7 +122,7 @@ void WindowsSingleInstancePlugin::HandleMethodCall(
     ::SetWindowPos(m_hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE);
     ::SetWindowPos(m_hWnd, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_SHOWWINDOW | SWP_NOSIZE | SWP_NOMOVE);
     ::SetForegroundWindow(m_hWnd);
-    ::SetFocus(m_hWnd);
+    //::SetFocus(m_hWnd);
     ::SetActiveWindow(m_hWnd);
     ::AttachThreadInput(dwCurID, dwMyID, FALSE);
     if (::IsIconic(m_hWnd)) {
