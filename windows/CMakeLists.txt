@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.14)
-set(PROJECT_NAME "windows_single_instance")
+set(PROJECT_NAME "libw_instance")
 project(${PROJECT_NAME} LANGUAGES CXX)
 
 # This value is used when generating builds using this plugin, so it must
 # not be changed
-set(PLUGIN_NAME "windows_single_instance_plugin")
+set(PLUGIN_NAME "libw_instance_plugin")
 
 add_library(${PLUGIN_NAME} SHARED
   "windows_single_instance_plugin.cpp"
