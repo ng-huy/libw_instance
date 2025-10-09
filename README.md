@@ -11,7 +11,7 @@
 ```
 
 ```dart
-var appId = "com.example.singleapp";
+var appId = "com-example-singleapp";
 void main(List<String> args) async {
     WidgetsFlutterBinding.ensureInitialized();
     await WindowsSingleInstance.ensureSingleInstance(
